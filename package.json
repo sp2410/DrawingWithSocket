@@ -1,0 +1,20 @@
+{
+  "name": "drawing",
+  "version": "1.0.0",
+  "description": "drawing with socket io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "DrawingWithSocket"
+  },
+  "author": "saurav prakash",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  }
+}
