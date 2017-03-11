@@ -3,7 +3,8 @@ var socket;// = require('socket.io');
 function setup() {
 	//var button = createButton('reset');
 	//button.mousePressed(resetSketch);	
-	createCanvas(1600,800);
+	//createCanvas(1600,800);
+	createCanvas(window.innerWidth, window.innerHeight);
 	resetSketch();
 	
 }
@@ -50,3 +51,10 @@ function draw() {
 }
 
 
+window.onresize = function() {
+  var w = window.innerWidth;
+  var h = window.innerHeight;  
+  canvas.size(w,h);
+  width = w;
+  height = h;
+};
