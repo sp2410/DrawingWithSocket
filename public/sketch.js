@@ -24,7 +24,7 @@ function newDrawing(data){
  	//var num =  random(0,255);
  	fill(255,0,100);
  	smooth();
-  	ellipse(data.x, data.y, 2,2);
+  	ellipse(data.x, data.y, 5,5);
 
 }
 
@@ -43,7 +43,7 @@ function mouseDragged(){
 	 noStroke();  
 	 fill(255);
 	 smooth();
-  	 ellipse(mouseX, mouseY, 2,2);
+  	 ellipse(mouseX, mouseY, 5,5);
 }
 
 function draw() {
