@@ -12,7 +12,7 @@ function resetSketch(){
 
 	background(0);	  
 	// background(255);
-	socket = io.connect('http://localhost:3000');
+	socket = io.connect('https://shielded-journey-82575.herokuapp.com');
 	//socket = io.connect('http://localhost:3000');
 	socket.on('mouse', newDrawing);
 
